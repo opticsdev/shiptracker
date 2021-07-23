@@ -16,7 +16,7 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Shiptracker GUI</string>
   </property>
   <widget class="Line" name="line">
    <property name="geometry">
@@ -262,9 +262,9 @@
    <property name="geometry">
     <rect>
      <x>750</x>
-     <y>270</y>
-     <width>31</width>
-     <height>27</height>
+     <y>250</y>
+     <width>41</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
@@ -275,9 +275,9 @@
    <property name="geometry">
     <rect>
      <x>790</x>
-     <y>300</y>
-     <width>31</width>
-     <height>27</height>
+     <y>290</y>
+     <width>41</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
@@ -289,8 +289,8 @@
     <rect>
      <x>750</x>
      <y>330</y>
-     <width>31</width>
-     <height>27</height>
+     <width>41</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
@@ -301,9 +301,9 @@
    <property name="geometry">
     <rect>
      <x>710</x>
-     <y>300</y>
-     <width>31</width>
-     <height>27</height>
+     <y>290</y>
+     <width>41</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
@@ -421,7 +421,7 @@
     <string>Longitude (W)</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="trackButton_2">
+  <widget class="QPushButton" name="camEnableButton">
    <property name="geometry">
     <rect>
      <x>550</x>
@@ -657,7 +657,7 @@
     <rect>
      <x>710</x>
      <y>170</y>
-     <width>201</width>
+     <width>231</width>
      <height>28</height>
     </rect>
    </property>
@@ -676,7 +676,7 @@
     <rect>
      <x>710</x>
      <y>200</y>
-     <width>201</width>
+     <width>231</width>
      <height>28</height>
     </rect>
    </property>
@@ -691,7 +691,7 @@
     </date>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>30</x>
