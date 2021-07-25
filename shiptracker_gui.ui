@@ -59,7 +59,7 @@
      <x>750</x>
      <y>530</y>
      <width>121</width>
-     <height>28</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
@@ -87,7 +87,7 @@
      <x>930</x>
      <y>530</y>
      <width>121</width>
-     <height>28</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
@@ -184,7 +184,7 @@
      <x>770</x>
      <y>620</y>
      <width>121</width>
-     <height>28</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
@@ -224,7 +224,7 @@
      <x>920</x>
      <y>620</y>
      <width>121</width>
-     <height>28</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
@@ -316,7 +316,7 @@
      <x>870</x>
      <y>300</y>
      <width>91</width>
-     <height>28</height>
+     <height>31</height>
     </rect>
    </property>
   </widget>
@@ -345,10 +345,10 @@
   <widget class="QDoubleSpinBox" name="latSpinBox">
    <property name="geometry">
     <rect>
-     <x>710</x>
+     <x>700</x>
      <y>100</y>
-     <width>161</width>
-     <height>28</height>
+     <width>171</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="buttonSymbols">
@@ -364,7 +364,7 @@
      <x>890</x>
      <y>100</y>
      <width>171</width>
-     <height>28</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="buttonSymbols">
@@ -486,10 +486,10 @@
   <widget class="QLabel" name="imageView">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>40</y>
-     <width>611</width>
-     <height>461</height>
+     <x>20</x>
+     <y>20</y>
+     <width>640</width>
+     <height>480</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -505,39 +505,13 @@
     <string/>
    </property>
   </widget>
-  <widget class="QScrollBar" name="exposureScrollBar">
-   <property name="geometry">
-    <rect>
-     <x>240</x>
-     <y>540</y>
-     <width>160</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="orientation">
-    <enum>Qt::Horizontal</enum>
-   </property>
-  </widget>
-  <widget class="QScrollBar" name="gainScrollBar">
-   <property name="geometry">
-    <rect>
-     <x>240</x>
-     <y>610</y>
-     <width>160</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="orientation">
-    <enum>Qt::Horizontal</enum>
-   </property>
-  </widget>
   <widget class="QDoubleSpinBox" name="exposureSpinBox">
    <property name="geometry">
     <rect>
      <x>410</x>
      <y>540</y>
      <width>91</width>
-     <height>28</height>
+     <height>31</height>
     </rect>
    </property>
   </widget>
@@ -547,7 +521,7 @@
      <x>410</x>
      <y>610</y>
      <width>91</width>
-     <height>28</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="value">
@@ -604,7 +578,7 @@
      <x>870</x>
      <y>370</y>
      <width>91</width>
-     <height>28</height>
+     <height>31</height>
     </rect>
    </property>
   </widget>
@@ -655,10 +629,10 @@
   <widget class="QTimeEdit" name="timeEdit">
    <property name="geometry">
     <rect>
-     <x>710</x>
-     <y>170</y>
-     <width>231</width>
-     <height>28</height>
+     <x>700</x>
+     <y>160</y>
+     <width>311</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="displayFormat">
@@ -674,10 +648,10 @@
   <widget class="QDateEdit" name="dateEdit">
    <property name="geometry">
     <rect>
-     <x>710</x>
+     <x>700</x>
      <y>200</y>
-     <width>231</width>
-     <height>28</height>
+     <width>311</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="displayFormat">
@@ -750,6 +724,32 @@
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QSlider" name="gainSlider">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>620</y>
+     <width>160</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QSlider" name="exposureSlider">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>550</y>
+     <width>160</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
   </widget>
  </widget>
  <resources/>
